@@ -1,0 +1,89 @@
+:host{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+/* Neutral / White */
+
+    background: #FFFFFF;
+}
+.l-label{
+    background-color:#094B72;
+    color: white;
+    border-radius: 50%;
+    font: 'Poppins';
+    width: 46.7px;
+    height: 36px;
+    top:44px;
+    //left: 161px;
+    padding: 0;
+    border: none;
+    font-weight: 700;
+    position: absolute;
+    left: 11.18%;
+    right: 85.58%;
+    //top: 0.89%;
+    bottom: 98.12%;
+}
+.main-t{
+    position: absolute;
+    height: 20px;
+    left: 15.59%;
+    right: 75.85%;
+    top:32px;
+    //top: calc(50% - 20px/2 - 1756.5px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+/* or 115% */   
+    letter-spacing: 1.5px;
+/* Neutral / Grey 7 */
+    color: #2D2F30;
+    mix-blend-mode: normal;
+}
+.texts{
+    width: 67px;
+    height: 23px;
+    top:42px;
+    bottom:35px;
+    //left:100px;
+    position: absolute;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+/* identical to box height, or 192% */
+    letter-spacing: 1.5px;
+/* Neutral / Grey 7 */
+    color: #2D2F30;
+/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#contact{
+    left:608.45px;
+}
+#testimonials{
+    left:731.45px;
+}
+#about{
+    left:885.45px;
+}
+#terms{
+    left:987.45px;
+}
+img{
+    position: absolute;
+    left: 1302px;
+    right: 120px;
+    top: 55px;
+    bottom: 38px;
+/* Neutral / Grey 7 */
+}
